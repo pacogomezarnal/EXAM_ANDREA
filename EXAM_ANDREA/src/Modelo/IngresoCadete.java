@@ -47,7 +47,7 @@ public class IngresoCadete {
 		return cadet;
 	}
 	
-/*	public int comprobarCod(int id){
+	public int comprobarCod(int id){
 		try{
 			instruccion = this.conexion.createStatement();
 			resultado = instruccion.executeQuery(CHECK_SEL+String.valueOf(id));
@@ -73,5 +73,5 @@ public class IngresoCadete {
 		}
 		return id;	
 	}
-*/
+
 }
